@@ -2,9 +2,9 @@
 
 export HISTTIMEFORMAT="%F %T "
 
-history -a
+#history -a
 
-#source ~/.bashrc
+source ~/.bashrc
 
 cd /home/ec2-user/cronjob-assignment/biz-training
 
