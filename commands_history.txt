@@ -192,3 +192,8 @@ cd cronjob-assignment/biz-training/
 ls
 vi script.sh 
 sudo grep CRON /var/log/cron
+tail commands_history.txt 
+echo hello
+date
+tail commands_history.txt 
+date
