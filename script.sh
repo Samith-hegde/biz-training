@@ -1,7 +1,10 @@
 #!/bin/bash
 
 export HISTTIMEFORMAT="%F %T "
-source ~/.bashrc
+
+history -a
+
+#source ~/.bashrc
 
 cd /home/ec2-user/cronjob-assignment/biz-training
 
