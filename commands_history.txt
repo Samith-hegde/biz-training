@@ -1,69 +1,120 @@
-sudo useradd samith
-sudo passwd samith
-mkdir .ssh
-sudo su samith
-clear
-cat /etc/redhat-release 
-df -h
-free -m
-sudo yum update -y
-sudo yum install java-1.8.0-openjdk -y
-sudo yum install wget -y
-wget https://repo.almalinux.org/almalinux/8/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
-sudo yum localinstall <ssl-jo-ki-install-ho-rakha-hai>
-ls
-sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm 
-wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
-wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
-ls
-sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
-sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
-sudo vi ~/.bash_profile
-source ~/.bash_profile
-env | grep ORACLE
-sudo vi $ORACLE_HOME/cv/admin/cvu_config
-sudo vi /opt/oracle/product/21c/dbhomeXE/dbs/initXE.ora
-sudo vi /opt/oracle/product/21c/dbhomeXE/dbs/spfileXE.ora
-sudo fallocate -l 2G /swapfile
-sudo chmod 600 /swapfile
-sudo mkswap /swapfile
-sudo swapon /swapfile
-sudo swapon --show
-free -h
-sudo /etc/init.d/oracle-xe-21c configure
-sud service oracle-xe-21c start
-sudo service oracle-xe-21c start
-sqlplus sys as sysdba
-exit
-sqlplus
-ls
-ls
-chmod 700 /home/ec2-user/.ssh
-chmod 600 /home/ec2-user/.ssh/authorized_keys 
-exit
-cd .ssh/
-vi authorized_keys 
-exit
-ls
-imp classicmodels/classicmodels FULL=y File=./classicmodels.dmp 
-cd -
-bin
-cd bin/
-cd /opt/oracle/product/21c/dbhomeXE/bin
-imp classicmodels/classicmodels FULL=y File=./classicmodels.dmp 
-imp classicmodels/classicmodels FULL=y File=~/classicmodels.dmp 
-cd 
-sqlplus
-sudo vi ~/.bash_profile
-env | grep ORACLE
-sqlplus sys as sysdba
-sudo service orace-xe-21c start
-sudo service oracle-xe-21c start
-sqlplus
-cd bin/
-cd /opt/oracle/product/21c/dbhomeXE/bin
-imp classicmodels/classicmodels123 FULL=y File=~/classicmodels.dmp log=~/import.log
-imp classicmodels/classicmodels FULL=y File=~/classicmodels.dmp log=~/import.log
-cd
-sqlplus
-exit
+    1  sudo useradd samith
+    2  sudo passwd samith
+    3  mkdir .ssh
+    4  sudo su samith
+    5  clear
+    6  cat /etc/redhat-release 
+    7  df -h
+    8  free -m
+    9  sudo yum update -y
+   10  sudo yum install java-1.8.0-openjdk -y
+   11  sudo yum install wget -y
+   12  wget https://repo.almalinux.org/almalinux/8/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+   13  sudo yum localinstall <ssl-jo-ki-install-ho-rakha-hai>
+   14  ls
+   15  sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm 
+   16  wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+   17  wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+   18  ls
+   19  sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+   20  sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+   21  sudo vi ~/.bash_profile
+   22  source ~/.bash_profile
+   23  env | grep ORACLE
+   24  sudo vi $ORACLE_HOME/cv/admin/cvu_config
+   25  sudo vi /opt/oracle/product/21c/dbhomeXE/dbs/initXE.ora
+   26  sudo vi /opt/oracle/product/21c/dbhomeXE/dbs/spfileXE.ora
+   27  sudo fallocate -l 2G /swapfile
+   28  sudo chmod 600 /swapfile
+   29  sudo mkswap /swapfile
+   30  sudo swapon /swapfile
+   31  sudo swapon --show
+   32  free -h
+   33  sudo /etc/init.d/oracle-xe-21c configure
+   34  sud service oracle-xe-21c start
+   35  sudo service oracle-xe-21c start
+   36  sqlplus sys as sysdba
+   37  exit
+   38  sqlplus
+   39  ls
+   40  ls
+   41  chmod 700 /home/ec2-user/.ssh
+   42  chmod 600 /home/ec2-user/.ssh/authorized_keys 
+   43  exit
+   44  cd .ssh/
+   45  vi authorized_keys 
+   46  exit
+   47  ls
+   48  imp classicmodels/classicmodels FULL=y File=./classicmodels.dmp 
+   49  cd -
+   50  bin
+   51  cd bin/
+   52  cd /opt/oracle/product/21c/dbhomeXE/bin
+   53  imp classicmodels/classicmodels FULL=y File=./classicmodels.dmp 
+   54  imp classicmodels/classicmodels FULL=y File=~/classicmodels.dmp 
+   55  cd 
+   56  sqlplus
+   57  sudo vi ~/.bash_profile
+   58  env | grep ORACLE
+   59  sqlplus sys as sysdba
+   60  sudo service orace-xe-21c start
+   61  sudo service oracle-xe-21c start
+   62  sqlplus
+   63  cd bin/
+   64  cd /opt/oracle/product/21c/dbhomeXE/bin
+   65  imp classicmodels/classicmodels123 FULL=y File=~/classicmodels.dmp log=~/import.log
+   66  imp classicmodels/classicmodels FULL=y File=~/classicmodels.dmp log=~/import.log
+   67  cd
+   68  sqlplus
+   69  exit
+   70  ls
+   71  sudo grep CRON /var/log/cron
+   72  cd ..
+   73  history
+   74  ls
+   75  cd
+   76  ls
+   77  cd cronjob-assignment/
+   78  history
+   79  cd
+   80  sudo grep CRON /var/log/cron
+   81  date
+   82  sudo grep CRON /var/log/cron
+   83  cd cronjob-assignment/biz-training/
+   84  cd ..
+   85* 
+   86  ./script.sh
+   87  cp script.sh biz-training/
+   88  vi biz-training/script.sh 
+   89  crontab -e
+   90  crontab -l
+   91  ./biz-training/script.sh
+   92  history
+   93  cat ~/.bash_history 
+   94  cat ~/.bash_history  -n
+   95  vi ~/.bashrc 
+   96  crontab -e
+   97  sudo grep CRON /var/log/cron
+   98  date
+   99  sudo grep CRON /var/log/cron
+  100  date
+  101  sudo grep CRON /var/log/cron
+  102  date
+  103  sudo grep CRON /var/log/cron
+  104  ls
+  105  cd biz-training/
+  106  ls
+  107  vi script.sh 
+  108  vi README.md 
+  109  cd biz-training/
+  110  sudo grep CRON /var/log/cron
+  111  ls -a
+  112  crontab -e
+  113  sudo grep CRON /var/log/cron
+  114  ls
+  115  vi commands_history.txt 
+  116  vi script.sh 
+  117  ./script.sh 
+  118  vi script.sh 
+  119  ./script.sh 
+  120  history > ~/.bash_history 
