@@ -197,3 +197,4 @@ echo hello
 date
 tail commands_history.txt 
 date
+tail commands_history.txt 
