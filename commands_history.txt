@@ -118,3 +118,70 @@
   118  vi script.sh 
   119  ./script.sh 
   120  history > ~/.bash_history 
+ls
+sudo grep CRON /var/log/cron
+cd ..
+history
+ls
+cd
+ls
+cd cronjob-assignment/
+history
+cd
+sudo grep CRON /var/log/cron
+date
+sudo grep CRON /var/log/cron
+cd cronjob-assignment/biz-training/
+cd ..
+
+./script.sh
+cp script.sh biz-training/
+vi biz-training/script.sh 
+crontab -e
+crontab -l
+./biz-training/script.sh
+history
+cat ~/.bash_history 
+cat ~/.bash_history  -n
+vi ~/.bashrc 
+crontab -e
+sudo grep CRON /var/log/cron
+date
+sudo grep CRON /var/log/cron
+date
+sudo grep CRON /var/log/cron
+date
+sudo grep CRON /var/log/cron
+ls
+cd biz-training/
+ls
+vi script.sh 
+vi README.md 
+cd biz-training/
+sudo grep CRON /var/log/cron
+ls -a
+crontab -e
+sudo grep CRON /var/log/cron
+ls
+vi commands_history.txt 
+vi script.sh 
+./script.sh 
+vi script.sh 
+./script.sh 
+history > ~/.bash_history 
+./script.sh 
+ls
+cat script.sh 
+ls
+cat 
+cat script.sh 
+vi ~/.bashrc 
+./script.sh 
+tail ~/.bash_history 
+vi ~/.bashrc 
+vi script.sh 
+vi ~/.bash_profile 
+vi script.sh 
+history
+cat ~/.bash_history 
+cat ~/.bash_history -n
