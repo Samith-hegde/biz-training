@@ -1,0 +1,69 @@
+sudo useradd samith
+sudo passwd samith
+mkdir .ssh
+sudo su samith
+clear
+cat /etc/redhat-release 
+df -h
+free -m
+sudo yum update -y
+sudo yum install java-1.8.0-openjdk -y
+sudo yum install wget -y
+wget https://repo.almalinux.org/almalinux/8/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+sudo yum localinstall <ssl-jo-ki-install-ho-rakha-hai>
+ls
+sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm 
+wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+ls
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+sudo vi ~/.bash_profile
+source ~/.bash_profile
+env | grep ORACLE
+sudo vi $ORACLE_HOME/cv/admin/cvu_config
+sudo vi /opt/oracle/product/21c/dbhomeXE/dbs/initXE.ora
+sudo vi /opt/oracle/product/21c/dbhomeXE/dbs/spfileXE.ora
+sudo fallocate -l 2G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+sudo swapon --show
+free -h
+sudo /etc/init.d/oracle-xe-21c configure
+sud service oracle-xe-21c start
+sudo service oracle-xe-21c start
+sqlplus sys as sysdba
+exit
+sqlplus
+ls
+ls
+chmod 700 /home/ec2-user/.ssh
+chmod 600 /home/ec2-user/.ssh/authorized_keys 
+exit
+cd .ssh/
+vi authorized_keys 
+exit
+ls
+imp classicmodels/classicmodels FULL=y File=./classicmodels.dmp 
+cd -
+bin
+cd bin/
+cd /opt/oracle/product/21c/dbhomeXE/bin
+imp classicmodels/classicmodels FULL=y File=./classicmodels.dmp 
+imp classicmodels/classicmodels FULL=y File=~/classicmodels.dmp 
+cd 
+sqlplus
+sudo vi ~/.bash_profile
+env | grep ORACLE
+sqlplus sys as sysdba
+sudo service orace-xe-21c start
+sudo service oracle-xe-21c start
+sqlplus
+cd bin/
+cd /opt/oracle/product/21c/dbhomeXE/bin
+imp classicmodels/classicmodels123 FULL=y File=~/classicmodels.dmp log=~/import.log
+imp classicmodels/classicmodels FULL=y File=~/classicmodels.dmp log=~/import.log
+cd
+sqlplus
+exit
