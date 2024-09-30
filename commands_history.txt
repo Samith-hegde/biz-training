@@ -311,3 +311,8 @@ echo "I am Samith"
 clear
 pwd
 ping google.com
+clear
+sudo apt-get install dnsutils
+nslookup google.com
+clear
+ifconfig
