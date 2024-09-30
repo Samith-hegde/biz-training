@@ -290,3 +290,4 @@ clear
 hostname
 exit
 clear
+ls
