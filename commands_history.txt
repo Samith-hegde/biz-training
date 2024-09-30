@@ -307,3 +307,7 @@ find cronjob-assignment/ -name biz-training
 find cronjob-assignment -name script.sh 
 find cronjob-assignment/ -type d
 clear
+echo "I am Samith"
+clear
+pwd
+ping google.com
