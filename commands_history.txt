@@ -294,3 +294,8 @@ ls
 exit
 clear
 ps -ef
+clear
+ls
+wc fruits.txt
+clear
+crontab -l
