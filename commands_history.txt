@@ -265,3 +265,14 @@ ls
 clear
 touch test.txt
 ls
+chmod +X test.txt
+rm test.rxr
+rm test.txt
+ls
+clear
+touch script.sh
+chmod +X script.sh
+ls
+clear
+vi fruits.txt
+sed 's/apple/orange/' fruits.txt
