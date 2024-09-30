@@ -276,3 +276,15 @@ ls
 clear
 vi fruits.txt
 sed 's/apple/orange/' fruits.txt
+clear
+free -g
+free -m
+free -k
+clear
+du -h
+clear
+top
+clear
+uname -a
+clear
+hostname
