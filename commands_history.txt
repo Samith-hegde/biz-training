@@ -288,3 +288,5 @@ clear
 uname -a
 clear
 hostname
+exit
+clear
