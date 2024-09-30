@@ -255,3 +255,13 @@ cd ..
 /.script.sh
 ls
 ./script.sh
+clear
+mkdir test
+ls
+cd test/
+cd ..
+rmdir test
+ls
+clear
+touch test.txt
+ls
