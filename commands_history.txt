@@ -299,3 +299,10 @@ ls
 wc fruits.txt
 clear
 crontab -l
+clear
+grep apple fruits.txt
+ls
+clear
+find cronjob-assignment/ -name biz-training
+find cronjob-assignment -name script.sh 
+find cronjob-assignment/ -type d
