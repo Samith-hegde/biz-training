@@ -199,3 +199,59 @@ tail commands_history.txt
 date
 tail commands_history.txt 
 crontab -e
+cd ..
+exit
+clear
+sudo yum install git
+clear
+cd home/
+ls
+clear
+git clone https://github.com/Samith-hegde/biz-training.git
+cd biz-training/
+ls
+clear
+vi history_script.sh
+clerar
+clear
+ls
+cd
+ls
+rm biz-training/
+rmdir biz-training/
+rm -r biz-training/
+y
+ls
+clear
+mkdir cronjob-assignment
+cd cronjob-assignment/
+git clone https://github.com/Samith-hegde/biz-training.git
+ls
+cd biz-training/
+ls
+clear
+cd ..
+vi script.sh
+chmod +x ~/script.sh
+chmod +x ~/cronjob-assignment/script.sh
+crontab -e
+crontab -l
+script.sh
+ls
+./script.sh
+cd ..
+clear
+ssh-keygen -t rsa 
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+clear
+cat ~/.ssh/id_rsa.pub 
+cd cronjob-assignment/biz-training/
+git remote set-url origin git@github.com:<Samith-hegde>/<biz-training>.git
+git remote set-url origin git@github.com:Samith-hegde/biz-training.git
+git remote -v
+ssh -T git@github.com
+cd ..
+/.script.sh
+ls
+./script.sh
