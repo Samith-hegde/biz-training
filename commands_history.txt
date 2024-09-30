@@ -291,3 +291,6 @@ hostname
 exit
 clear
 ls
+exit
+clear
+ps -ef
