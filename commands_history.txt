@@ -316,3 +316,4 @@ sudo apt-get install dnsutils
 nslookup google.com
 clear
 ifconfig
+exit
