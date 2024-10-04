@@ -443,3 +443,4 @@ sudo echo "Subject: Tired of sending test mails" | sendmail -v hegdesamith02@gma
 sudo vi cronjob-assignment/email/script.sh 
 cd cronjob-assignment/email/
 ./script.sh
+sudo vi script.sh 
