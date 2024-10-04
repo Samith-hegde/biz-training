@@ -415,3 +415,11 @@ exit
 clear
 lscpu
 free -h
+df -h
+ls
+cd cronjob-assignment/
+ls
+rm script.sh
+ls
+mkdir email
+cd email/
