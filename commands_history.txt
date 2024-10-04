@@ -367,3 +367,4 @@ echo "Subject: Test Email from EC2" | sendmail -v samith.hegde@bizacuity.com
 sudo mailq
 sudo tail -f /var/log/maillog
 clear
+sudo vi /etc/postfix/sasl_passwd
