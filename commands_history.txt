@@ -392,3 +392,12 @@ sudo postmap /etc/postfix/sasl_passwd
 sudo systemctl restart postfix
 sudo echo "Subject: Test Email" | sendmail -v samith.hegde@bizacuity.com
 sudo tail -f /var/log/mail.log
+sudo tail -f /var/log/maillog
+clear
+sudo yum install cyrus-sasl cyrus-sasl-plain
+sudo echo "Subject: Test Email" | sendmail -v samith.hegde@bizacuity.com
+sudo systemctl restart postfix
+sudo echo "Subject: Test Email" | sendmail -v samith.hegde@bizacuity.com
+sudo tail -f /var/log/maillog
+clear
+echo "Subject: Test Email 2" | sendmail -v samith.hegde@bizacuity.com
