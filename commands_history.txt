@@ -432,3 +432,4 @@ sudo chmod +x script.sh
 ./script.sh 
 ls
 cat system_info.txt 
+cd ..
