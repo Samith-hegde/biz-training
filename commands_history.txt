@@ -325,3 +325,8 @@ echo "Subject: Test Email from EC2" | sendmail -v hegdesamith02@gmail.com
 exit
 clear
 echo "Subject: Test Email from EC2" | sendmail -v hegdesamith02@gmail.com
+clear
+sudo yum install postfix
+sudo systemctl start postfix
+sudo systemctl enable postfix
+echo "Subject: Test Email from EC2" | sendmail -v hegdesamith02@gmail.com
