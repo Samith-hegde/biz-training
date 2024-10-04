@@ -466,3 +466,10 @@ sudo vi cronjob-assignment/email/script.sh
 crontab -e
 sudo vi cronjob-assignment/email/script.sh
 top -b -n1 | grep "Cpu(s)"
+sudo vi cronjob-assignment/email/script.sh
+crontab -e
+date
+crontab -e
+sudo vi cronjob-assignment/email/script.sh
+crontab -l
+clear
