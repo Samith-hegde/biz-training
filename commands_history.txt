@@ -321,3 +321,7 @@ clear
 sudo yum install sendmail
 echo "Subject: Test Email from EC2" | sendmail -v hegdesamith02@gmail.com
 tail -f /var/log/maillog
+echo "Subject: Test Email from EC2" | sendmail -v hegdesamith02@gmail.com
+exit
+clear
+echo "Subject: Test Email from EC2" | sendmail -v hegdesamith02@gmail.com
