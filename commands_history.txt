@@ -423,3 +423,8 @@ rm script.sh
 ls
 mkdir email
 cd email/
+sudo vi script.sh
+cd ..
+sudo postsuper -d ALL
+cd cronjob-assignment/email/
+sudo vi script.sh
