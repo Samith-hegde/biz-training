@@ -368,3 +368,7 @@ sudo mailq
 sudo tail -f /var/log/maillog
 clear
 sudo vi /etc/postfix/sasl_passwd
+sudo chmod 600 /etc/postfix/sasl_passwd /etc/postfix/sasl_passwd.db
+sudo systemctl rstart postfix
+sudo systemctl restart postfix
+echo "Subject: Test Email from EC2" | sendmail -v samith.hegde@bizacuity.com
