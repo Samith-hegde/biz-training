@@ -376,3 +376,9 @@ sudo tail -f /var/log/maillog
 sudo vi /etc/postfix/sasl_passwd
 sudo systemctl restart postfix
 echo "Subject: Test Email from EC2" | sendmail -v samith.hegde@bizacuity.com
+sudo tail -f /var/log/maillog
+sudo vi /etc/postfix/main.cf
+echo "Subject: Test Email from EC2" | sendmail -v samith.hegde@bizacuity.com
+sudo tail -f /var/log/maillog
+sudo systemctl restart postfix
+echo "Subject: Test Email from EC2" | sendmail -v samith.hegde@bizacuity.com
