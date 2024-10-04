@@ -318,3 +318,6 @@ clear
 ifconfig
 exit
 clear
+sudo yum install sendmail
+echo "Subject: Test Email from EC2" | sendmail -v hegdesamith02@gmail.com
+tail -f /var/log/maillog
