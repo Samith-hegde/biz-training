@@ -450,3 +450,19 @@ sudo vi script.sh
 cd ..
 crontab -e
 crontab -l
+time
+sudo grep CRON /var/log/cron
+crontab -e
+crontab -l
+sudo grep CRON /var/log/cron
+crontab -l
+crontab -e
+date
+sudo grep CRON /var/log/cron
+date
+sudo grep CRON /var/log/cron
+crontab -e
+sudo vi cronjob-assignment/email/script.sh 
+crontab -e
+sudo vi cronjob-assignment/email/script.sh
+top -b -n1 | grep "Cpu(s)"
