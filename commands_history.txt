@@ -382,3 +382,8 @@ echo "Subject: Test Email from EC2" | sendmail -v samith.hegde@bizacuity.com
 sudo tail -f /var/log/maillog
 sudo systemctl restart postfix
 echo "Subject: Test Email from EC2" | sendmail -v samith.hegde@bizacuity.com
+exit
+sudo systemctl start postfix
+sudo systemctl enable postfix
+echo "Subject: Test Email from EC2" | sendmail -v samith.hegde@bizacuity.com
+clear
