@@ -412,3 +412,6 @@ sudo echo "Subject: Test Email from Samith" | sendmail -v azt25082000@gmail.com
 sudo tail -f /var/log/maillog
 clear
 exit
+clear
+lscpu
+free -h
