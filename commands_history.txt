@@ -317,3 +317,4 @@ nslookup google.com
 clear
 ifconfig
 exit
+clear
