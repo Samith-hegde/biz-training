@@ -447,3 +447,6 @@ sudo vi script.sh
 ./script.sh
 sudo vi script.sh 
 ./script.sh
+cd ..
+crontab -e
+crontab -l
