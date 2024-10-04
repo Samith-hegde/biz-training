@@ -337,3 +337,7 @@ sudo tail -f /var/log/maillog
 clear
 sudo vi /etc/postfix/main.cf
 sudo systemctl restart postfix
+echo "Subject: Test Email from EC2" | sendmail -v hegdesamith02@gmail.com
+sudo tail -f /var/log/maillog
+echo "Subject: Test Email from EC2" | sendmail -v samithvnps@rediffmail.com
+sudo tail -f /var/log/maillog
