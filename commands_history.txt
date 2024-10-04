@@ -433,3 +433,10 @@ sudo chmod +x script.sh
 ls
 cat system_info.txt 
 cd ..
+sudo vi /etc/postfix/main.cf
+sudo vi /etc/postfix/generic
+sudo postmap /etc/postfix/generic
+sudo systemctl restart postfix
+sudo vi /etc/postfix/sasl_passwd
+sudo postmap /etc/postfix/sasl_passwd
+sudo echo "Subject: Tired of sending test mails" | sendmail -v hegdesamith02@gmail.com
