@@ -387,3 +387,8 @@ sudo systemctl start postfix
 sudo systemctl enable postfix
 echo "Subject: Test Email from EC2" | sendmail -v samith.hegde@bizacuity.com
 clear
+sudo vi /etc/postfix/main.cf
+sudo postmap /etc/postfix/sasl_passwd
+sudo systemctl restart postfix
+sudo echo "Subject: Test Email" | sendmail -v samith.hegde@bizacuity.com
+sudo tail -f /var/log/mail.log
