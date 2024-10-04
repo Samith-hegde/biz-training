@@ -444,3 +444,6 @@ sudo vi cronjob-assignment/email/script.sh
 cd cronjob-assignment/email/
 ./script.sh
 sudo vi script.sh 
+./script.sh
+sudo vi script.sh 
+./script.sh
