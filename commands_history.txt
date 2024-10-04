@@ -349,3 +349,10 @@ clear
 sudo vi /etc/postfix/main.cf
 sudo vi /etc/postfix/sasl_passwd
 sudo postmap /etc/postfix/sasl_passwd
+sudo systemctl restart postfix
+clear
+echo "Subject: Test Email from EC2" | sendmail -v hegdesamith02@gmail.com
+sudo mailq
+echo "Subject: Test Email from EC2" | sendmail -v samithvnps@rediffmail.com
+echo "Subject: Test Email from EC2" | sendmail -v samith.hegde@bizacuity.com
+cat /var/spool/mail/ec2-user 
