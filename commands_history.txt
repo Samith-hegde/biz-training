@@ -401,3 +401,14 @@ sudo echo "Subject: Test Email" | sendmail -v samith.hegde@bizacuity.com
 sudo tail -f /var/log/maillog
 clear
 echo "Subject: Test Email 2" | sendmail -v samith.hegde@bizacuity.com
+sudo tail -f /var/log/maillog
+clear
+exit
+sudo systemctl start postfix
+sudo echo "Subject: Test Email 2" | sendmail -v samith.hegde@bizacuity.com
+sudo echo "Subject: Test Email from Samith" | sendmail -v azt45082000@gmail.com
+sudo tail -f /var/log/maillog
+sudo echo "Subject: Test Email from Samith" | sendmail -v azt25082000@gmail.com
+sudo tail -f /var/log/maillog
+clear
+exit
