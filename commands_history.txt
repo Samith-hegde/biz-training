@@ -473,3 +473,21 @@ crontab -e
 sudo vi cronjob-assignment/email/script.sh
 crontab -l
 clear
+sudo cat /var/log/cron | grep email/script.sh
+date
+sudo vi cronjob-assignment/email/script.sh 
+clear
+exit
+clear
+ls
+rm fruits.txt
+ls
+cat script.sh
+vi script.sh
+rm script.sh 
+ls
+clear
+mkdir sql_assignment
+cd sql_assignment/
+clear
+exit
