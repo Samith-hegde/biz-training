@@ -491,3 +491,23 @@ mkdir sql_assignment
 cd sql_assignment/
 clear
 exit
+ls
+cd sql_assignment/
+touch payments.csv
+ls
+tail payments.csv
+ls
+exit
+clear
+ls
+mv payments.csv sql_assignment/payments.csv
+ls
+cd sql_assignment/
+ls
+tail payments.csv
+clear
+exit
+clear
+cd sql_assignment/
+ls
+tail payments.csv
